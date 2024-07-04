@@ -14,7 +14,6 @@ import { NodeMailerProvider } from './providers/nodemailer.provider';
     ConfigModule.forRoot({
       isGlobal: true,
       validationSchema: Joi.object({
-        PORT: Joi.number().required(),
         SENDER_NAME: Joi.string().required(),
         SENDER_EMAIL: Joi.string().required(),
         NODEMAILER_USER: Joi.string().required(),
