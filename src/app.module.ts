@@ -19,6 +19,7 @@ import { NodeMailerProvider } from './providers/nodemailer.provider';
         NODEMAILER_USER: Joi.string().required(),
         NODEMAILER_PASSWORD: Joi.string().required(),
         RABBITMQ_URL: Joi.string().required(),
+        PORT: Joi.string().required(),
       }),
     }),
   ],
